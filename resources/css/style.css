@@ -140,3 +140,20 @@ section.icons-container {
   margin-top: 1rem;
 }
 /* Footer */
+footer div.container {
+  background-color: azure;
+  margin-top: 5rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.copyright img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
