@@ -1,3 +1,7 @@
+/*header, main footer, div, span, img {
+  border: 1px solid black;
+}*/
+
 /*Universal Styling */
 html {
   font-size: 18px;
@@ -152,4 +156,33 @@ footer div.container {
 .copyright img {
   height: 1.5rem;
   margin-right: 1rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width : 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  /* Header */
+  header {
+    height: 22rem;
+    background-size: cover;
+  }
+  .header-bar {
+    margin-top: 0;
+  }
+  #slogan {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    position: absolute;
+    right: 2rem;
+  }
+
+  /* Main -- Philosophy */
+  section.container {
+    justify-content: center;
+  }
 }
