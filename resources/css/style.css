@@ -93,6 +93,31 @@ main {
 
 section.container {
   display: flex;
+  justify-content: center;
 }
+
+/* Main -- Icon Section */
+#icons {
+  display: flex;
+}
+
+.icon-item {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+
+.icon-item img {
+  width: 3.5rem;
+}
+
+.icon-item span {
+  text-align: center;
+}
+/* Main -- Philosophy and Appointments section */
 
 /* Footer */
